@@ -25,7 +25,7 @@ html, body {
 
 .top-nav-1{
   float: left;
-  width: 10vw;
+  width: 20vw;
   height: 10vw;
   background-color: lightgrey;
 }
@@ -58,8 +58,15 @@ html, body {
   height: 50vw;
 }
 
+.page-nav{
+  background-color: teal;
+  float: left;
+  width: 20vw;
+  height: 50vw;
+}
+
 .article-home{
-  padding: 10px;
+  width:80vw;
 }
 
 
