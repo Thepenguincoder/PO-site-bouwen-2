@@ -64,6 +64,27 @@ html, body {
   width: 20vw;
   height: 50vw;
 }
+  .page-nav ul {
+    list-style-type: none;
+    font-size: 2vw;
+  }
+
+    .page-nav ul li {
+      transition: all 300ms ease;
+      left: 0px;
+      position: relative;
+      line-height: 200%;
+    }
+
+      .page-nav ul li:hover {
+        left: 1vw;
+      } 
+        .page-nav ul li a {
+          text-decoration: none;
+          font-weight: bold;
+          color: darkblue;
+        }
+
 
 .article-home{
   width:80vw;
