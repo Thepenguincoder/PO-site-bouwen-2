@@ -72,7 +72,6 @@ html, body {
     .page-nav ul li {
       transition: all 300ms ease;
       left: 0px;
-      position: relative;
       line-height: 200%;
     }
 
