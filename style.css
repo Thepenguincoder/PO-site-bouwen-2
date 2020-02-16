@@ -22,27 +22,18 @@ html, body {
 
 .top-nav-1{
   float: left;
-  width: 25vw;
+  width: 10vw;
   height: 10vw;
-  border: 1vw;
-  border-color: black;
   background-color: lightgrey;
 }
-
   .logo{
-    height: 3vw;
-    width: 19vw;
-    margin-top: 2.5vw;
-    margin-left: 2vw;
-    border: 0.05vw solid black;
-    border-radius: 5px;
-    padding: 1vw;
-  }
 
+  }
+  
 
 .top-nav-2 {
   margin: 2.5vw;
-  margin-left: 27.5vw;
+  float: left;
 }
 
   .top-nav-2 a {
@@ -90,3 +81,12 @@ html, body {
 bottom-nav{
 
 }
+  .partner-logo{
+    height: 3vw;
+    width: 19vw;
+    margin-top: 2.5vw;
+    margin-left: 39.5vw;
+    border: 0.05vw solid black;
+    border-radius: 5px;
+    padding: 1vw;
+  }
