@@ -59,26 +59,20 @@ html, body {
 }
 
 .page-nav{
-  background-color: teal;
   float: left;
-  width: 20vw;
-  height: 50vw;
 }
   .page-nav ul {
     list-style-type: none;
     font-size: 2vw;
+    padding-top: 5vw;
+
   }
 
     .page-nav ul li {
-      transition: all 300ms ease;
-      left: 0px;
       line-height: 200%;
     }
 
-      .page-nav ul li:hover {
-        left: 1vw;
-      } 
-        .page-nav ul li a {
+      .page-nav ul li a {
           text-decoration: none;
           font-weight: bold;
           color: darkblue;
@@ -87,6 +81,8 @@ html, body {
 
 .article-home{
   width:80vw;
+  margin-left: 20vw;
+  padding: 2vw;
 }
 
 
