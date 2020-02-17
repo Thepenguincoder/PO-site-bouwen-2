@@ -62,12 +62,12 @@ html, body {
 .page-nav{
   display: inline-block;
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: darkcyan;
   float: left;
   position: absolute;
   width: 16vw;
   margin-left: 2vw;
-  margin-top: 2vw;
+  margin-top: 4vw;
 }
   .page-nav ul {
     list-style-type: none;
