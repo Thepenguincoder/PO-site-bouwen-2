@@ -31,7 +31,7 @@ html, body {
   background-color: grey;
 }
   .logo{
-  padding: 1vw;
+  margin: 1vw;
   float: left;
   width: 18vw;
   height: 8vw;
