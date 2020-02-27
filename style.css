@@ -123,16 +123,3 @@ p{
   height: 20vh;
   position:relative;
 }
-
-bottom-nav{
-
-}
-  .partner-logo{
-    height: 6vh;
-    width: 12vw;
-    margin-top: 6vh;
-    margin-left: 44vw;
-    border: 2px solid black;
-    border-radius: 5px;
-    padding: 1vh 1vw;
-  }
