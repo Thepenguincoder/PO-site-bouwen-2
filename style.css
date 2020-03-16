@@ -40,18 +40,20 @@ html, body {
   
 
 .top-nav-2 {
-  margin: 2.5vw;
-  float: left;
+
 }
 
   .top-nav-2 a {
-    display: inline-block;
+    margin: 2.5vw 0vw 2.5vw 2vw;
+    height: 5vw;
+    float: left;
+    display: block;
     border-radius: 5px;
     background-color: lightblue;
     color: black;
     font-size: 3vw;
     text-decoration: none;
-    padding: 1vw 2vw;
+    padding: 1vw 2vw 0vw 2vw;
     position:relative;
   }
 
@@ -125,9 +127,7 @@ p{
   position:relative;
 }
 
-bottom-nav{
 
-}
   .partner-logo{
     height: 3vw;
     width: 19vw;
@@ -136,4 +136,34 @@ bottom-nav{
     border: 2px solid black;
     border-radius: 5px;
     padding: 1vw;
+}
+
+
+
+
+@media (max-width: 450px) {
+  
+.nav-header {
+  background-image: url(https://cdn02.nintendo-europe.com/media/images/10_share_images/portals_3/H2x1_CharacterHub_DonkeyKong_image1600w.jpg);
+  height: 10vh;
+  margin-top: -10vh; 
+}
+
+.top-nav-1{
+  height: 10vh;
+}
+
+  .top-nav-2 a {
+    margin: 2.5vh 0vw 2.5vh 1vw;
+    height: 5vh;
+    font-size: 3vh;
+    padding: 1vh 2vw 0vh 2vw;
   }
+
+
+
+.page-content{
+  background-color: darkturquoise;
+  margin-top: 10vh;
+  }
+}
