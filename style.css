@@ -130,9 +130,9 @@ p{
   .partner-logo{
     height: 3vw;
     width: 19vw;
-    margin-top: 2.5vw;
-    margin-left: 39.5vw;
-    border: 2px solid black;
+    margin-top: 2vw;
+    margin-left: 39vw;
+    border: 0.5vw solid black;
     border-radius: 5px;
     padding: 1vw;
 }
@@ -140,13 +140,9 @@ p{
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   
 .nav-header{
-  background-image: url(https://www.warehousetotaal.nl/wp-content/uploads/2018/03/Machine-learning2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
   width: 100vw;
   height: 20vw;
   margin-top: -20vw; 
@@ -239,8 +235,8 @@ p{
   .partner-logo{
     height: 6vw;
     width: 38vw;
-    margin: 5vw 0vw 0vw 30vw;
-    border: 2px solid black;
+    margin: 5.5vw 29.5vw 0vw 29.5vw;
+    border: 0.5vw solid black;
     border-radius: 5px;
     padding: 1vw;
 }
