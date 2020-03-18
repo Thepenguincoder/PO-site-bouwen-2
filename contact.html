@@ -30,16 +30,34 @@
 					Contact
 				</h1>
 				<h2>
-					Heeft u vragen? vul het formulier in zodat wij zo spoedig mogelijk contact met u op kunnen nemen.
+					Heeft u vragen? Vul dan het formulier in zodat wij zo spoedig mogelijk contact met u op kunnen nemen.
 				</h2>
-          <p>
-            Op de Contactpagina komt een formulier met daarin verwerkt: <br> <br>
-              a.     Naam <br>
-              b.     E-mail <br>
-              c.     Telefoon <br>
-              d.     Land <br> <br>
-            Het verzenden van het formulier hoeft niet te werken. De velden mogen niet leeg blijven. De velden e-mailadres en telefoon moeten gevalideerd worden. Veld d is een datalist. Er is tenminste gebruik gemaakt van fieldset, placeholder, required en pattern 
-          </p>
+          <form>
+            <fieldset>
+              <label for="vnaam">Voornaam:</label> <br>
+              <input type="text" id="vnaam" name="vnaam" placeholder="Uw voornaam" required> <br>
+              <label for="anaam">Achternaam:</label> <br>
+              <input type="text" id="anaam" name="anaam" placeholder="Uw achternaam" required> <br>
+              <label for="email">Email:</label> <br>
+              <input type="email" id="email" name="email" placeholder="voorbeeld@gmail.com" required> <br>
+              <label for="telnum">Telefoonnummer:</label> <br>
+              <input type="number" id="telnum" name="telnum" pattern="[0-9]{10}" placeholder="Bijvoorbeeld: 0987654321"> <br>
+              <label for="land">Land:</label>
+              <select id="land" name="land">
+                <option value="USA">USA</option>
+                <option value="NL">Nederland</option>
+                <option value="UK">UK</option>
+                <option value="BE">België</option>
+                <option value="AU">Australië</option>
+                <option value="FR">Frankrijk</option>
+                <option value="DL">Duitsland</option>
+              </select> <br> <br>
+              <label for="vragen">Uw vraag of vragen:</label> <br>
+              <textarea id="vragen" name="vragen" required></textarea> <br>
+              <br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
 			</div>
 		</div>
 
