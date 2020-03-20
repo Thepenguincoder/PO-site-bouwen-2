@@ -38,8 +38,12 @@ html, body {
 
 }
 
+  .top-nav-2 ul {
+    font-size: 2vw;
+  }
+
   .top-nav-2 a {
-    margin: 2.5vw 0vw 2.5vw 2vw;
+    margin: 0vw 0vw 2.5vw 2vw;
     height: 5vw;
     float: left;
     display: block;
@@ -86,10 +90,50 @@ h2 {
   padding: 2vw;
 }
 
-p{
+p {
   padding: 0vw 2vw;
 }
 
+ol {
+  list-style-type: upper-roman;
+}
+
+ol ul {
+  list-style-type: square;
+}
+
+table {
+  margin: 0vw 2vw 0vw 2vw;
+  border-collapse: collapse;
+  width: 86vw;
+}
+
+caption {
+  padding: 1vw;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 1vw;
+  text-align: left;
+}
+
+th {
+  background-color: #777;
+  color: white;
+}
+
+td {
+  background-color: #eee;
+}
+
+.icai {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .nav-footer{
   background-color: lightseagreen;
@@ -129,10 +173,10 @@ p{
   }
 
   .top-nav-2 a {
-    margin: 5vw 0vw 5vw 2vw;
+    margin: 3vw 0vw 5vw 2vw;
     height: 7.5vw;
     font-size: 5vw;
-    padding: 2.5vw 2vw 0vw 2vw;
+    padding: 2.25vw 2vw 0vw 2vw;
   }
 
 .page-content{
@@ -154,4 +198,9 @@ p{
     width: 38vw;
     margin: 5.5vw 29.5vw 0vw 29.5vw;
 }
+
+td, th, caption {
+  padding: 1vw 2vw 2vw 2vw;
+}
+
 }

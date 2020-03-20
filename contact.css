@@ -38,8 +38,12 @@ html, body {
 
 }
 
+  .top-nav-2 ul {
+    font-size: 2vw;
+  }
+
   .top-nav-2 a {
-    margin: 2.5vw 0vw 2.5vw 2vw;
+    margin: 0vw 0vw 2.5vw 2vw;
     height: 5vw;
     float: left;
     display: block;
@@ -96,27 +100,7 @@ fieldset {
   border-radius: 5px;
 }
 
-input[type=text] {
-  width: 50%;
-  padding: 1vw 1vw;
-  margin: 1vw 0vw 2vw 0vw;
-  border: solid #999;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  box-sizing: border-box;
-}
-
-input[type=email] {
-  width: 50%;
-  padding: 1vw 1vw;
-  margin: 1vw 0vw 2vw 0vw;
-  border: solid #999;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  box-sizing: border-box;
-}
-
-input[type=number] {
+input {
   width: 50%;
   padding: 1vw 1vw;
   margin: 1vw 0vw 2vw 0vw;
@@ -148,8 +132,10 @@ textarea {
 input[type=submit] {
   width: 25%;
   padding: 1vw 0vw;
+  border: solid #888;
+  border-radius: 5px;
+  background-color: #bbb;
 }
-
 
 .nav-footer{
   background-color: lightseagreen;
@@ -189,10 +175,10 @@ input[type=submit] {
   }
 
   .top-nav-2 a {
-    margin: 5vw 0vw 5vw 2vw;
+    margin: 3vw 0vw 5vw 2vw;
     height: 7.5vw;
     font-size: 5vw;
-    padding: 2.5vw 2vw 0vw 2vw;
+    padding: 2.25vw 2vw 0vw 2vw;
   }
 
 .page-content{

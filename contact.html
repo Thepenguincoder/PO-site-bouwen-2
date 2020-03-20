@@ -18,9 +18,11 @@
 				<img src="https://snipboard.io/EglkD6.jpg" class="logo" />
 			</nav>
       <nav class="top-nav-2">
-        <a href="https://po-site-bouwen-2-home--freriknagel.repl.co/">Home</a>
-        <a href="about.html">About</a>
-        <a href="https://repl.it/@FrerikNagel/PO-site-bouwen-2-home">Repl</a>
+        <ul>
+          <a href="https://po-site-bouwen-2-home--freriknagel.repl.co/">Home</a>
+          <a href="about.html">About</a>
+          <a href="https://repl.it/@FrerikNagel/PO-site-bouwen-2-home">Repl</a>
+        </ul>
       </nav>
 		</header>
 
@@ -41,17 +43,18 @@
               <label for="email">Email:</label> <br>
               <input type="email" id="email" name="email" placeholder="voorbeeld@gmail.com" required> <br>
               <label for="telnum">Telefoonnummer:</label> <br>
-              <input type="number" id="telnum" name="telnum" pattern="[0-9]{10}" placeholder="Bijvoorbeeld: 0987654321"> <br>
-              <label for="land">Land:</label>
-              <select id="land" name="land">
-                <option value="USA">USA</option>
-                <option value="NL">Nederland</option>
-                <option value="UK">UK</option>
-                <option value="BE">België</option>
-                <option value="AU">Australië</option>
-                <option value="FR">Frankrijk</option>
-                <option value="DL">Duitsland</option>
-              </select> <br> <br>
+              <input type="tel" id="telnum" name="telnum" pattern="[0-9]{10}" placeholder="Bijvoorbeeld: 0987654321"> <br>
+              <label for="land">Land:</label> <br>
+              <input list="land" name="land" placeholder="Uw land">
+              <datalist id="land" name="land">
+                <option value="USA">
+                <option value="Nederland">
+                <option value="Verenigd Koninkrijk">
+                <option value="België">
+                <option value="Australië">
+                <option value="Frankrijk">
+                <option value="Duitsland">
+              </datalist> <br> <br>
               <label for="vragen">Uw vraag of vragen:</label> <br>
               <textarea id="vragen" name="vragen" required></textarea> <br>
               <br>

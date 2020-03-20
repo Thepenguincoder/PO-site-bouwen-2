@@ -37,11 +37,15 @@ html, body {
   
 
 .top-nav-2 {
-
+  
 }
 
+  .top-nav-2 ul {
+    font-size: 2vw;
+  }
+
   .top-nav-2 a {
-    margin: 2.5vw 0vw 2.5vw 2vw;
+    margin: 0vw 0vw 0vw 2vw;
     height: 5vw;
     float: left;
     display: block;
@@ -52,7 +56,6 @@ html, body {
     text-align: justify;
     text-decoration: none;
     padding: 1vw 2vw 0vw 2vw;
-    position:relative;
   }
 
 
@@ -158,10 +161,10 @@ p{
   }
 
   .top-nav-2 a {
-    margin: 5vw 0vw 5vw 2vw;
+    margin: 3vw 0vw 5vw 2vw;
     height: 7.5vw;
     font-size: 5vw;
-    padding: 2.5vw 2vw 0vw 2vw;
+    padding: 2.25vw 2vw 0vw 2vw;
   }
 
 .page-content{
