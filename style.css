@@ -156,21 +156,23 @@ p{
 
 .page-nav {
   width: 90vw;
-  height: 15vw;
+  Height: 30vw;
   margin-left: 5vw;
 }
 
-  .page-nav ul li a {
-    margin: 2.5vw 0vw 2.5vw 2vw;
-    height: 5vw;
-    float: left;
-    font-size: 5vw;
-    padding: 1vw 2vw 0vw 2vw;
+  .page-nav ul {
+    padding: 3vw 0vw 0vw 2vw;
+  }
+
+    .page-nav ul li a {
+      font-size: 5vw;
+      display: block;
+      height: 6vw;
 }
 
 .article-home {
   margin-left: 5vw;
-  margin-top: 20vw;
+  margin-top: 33vw;
   width: 90vw;
 }
 
